@@ -36,7 +36,7 @@ function renderBoard() {
 	for (var i = 0; i < gBoard.length; i++) {
 		strHTML += `<tr>`;
 		for (var j = 0; j < gBoard[i].length; j++) {
-			strHTML += `<td onclick="cellClicked(this, ${i}, ${j})">${EMPTY}</td>`;
+			strHTML += `<td class="cell${i}${j}" onclick="cellClicked(this, ${i}, ${j})">${EMPTY}</td>`;
 		}
 		strHTML += `</tr>`;
 	}

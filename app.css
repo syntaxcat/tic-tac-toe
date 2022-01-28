@@ -4,6 +4,35 @@ body {
 	margin: 0;
 }
 
+.cell00 {
+	border-top: none;
+	border-left: none;
+}
+.cell01 {
+	border-top: none;
+}
+.cell02 {
+	border-top: none;
+	border-right: none;
+}
+.cell10 {
+	border-left: none;
+}
+.cell12 {
+	border-right: none;
+}
+.cell20 {
+	border-left: none;
+	border-bottom: none;
+}
+.cell21 {
+	border-bottom: none;
+}
+.cell22 {
+	border-right: none;
+	border-bottom: none;
+}
+
 body {
 	background-color: #d9dbbc;
 	display: flex;
@@ -17,18 +46,17 @@ body {
 }
 
 table {
-	background-color: #ef959d;
 	width: 15rem;
 	height: 15rem;
 }
 
 tbody {
 	background-color: #fcddbc;
-	transform: scale(1.02);
 }
 
 td {
 	color: #ef959d;
+	border: 1px solid #ef959d;
 	font-family: monospace;
 	font-size: 1.4rem;
 	text-align: center;
