@@ -1,0 +1,68 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #d9dbbc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container {
+	position: relative;
+}
+
+table {
+	background-color: #ef959d;
+	width: 15rem;
+	height: 15rem;
+}
+
+tbody {
+	background-color: #fcddbc;
+	transform: scale(1.02);
+}
+
+td {
+	color: #ef959d;
+	font-family: monospace;
+	font-size: 1.4rem;
+	text-align: center;
+	cursor: pointer;
+	width: 33.333%;
+	height: 33.333%;
+}
+
+.btn {
+	top: 110%;
+	left: 50%;
+	position: absolute;
+	display: none;
+	background-color: #b8d8ba;
+	border: 1px solid #02c39a;
+	color: #555555;
+	font-family: monospace;
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 0.5em;
+	transform: translateX(-50%);
+}
+
+h2 {
+	display: none;
+	background-color: rgb(255 252 252);
+	color: rgb(87, 80, 80);
+	width: 100%;
+	text-align: center;
+	font-family: monospace;
+	font-weight: normal;
+	position: fixed;
+	top: 50%;
+	z-index: 1;
+	transform: translateY(-50%);
+	margin: 0;
+}
